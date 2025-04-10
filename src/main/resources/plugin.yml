@@ -1,0 +1,20 @@
+name: Minefight
+version: '1.0-SNAPSHOT'
+main: de.rettedasplanet.minefight.Minefight
+api-version: '1.21'
+authors: [ RetteDasPlanet ]
+
+
+commands:
+  setup:
+    description: Stellt Lobby-/Spawn-/Würfel-Positionen ein
+    usage: /setup <lobby|spawn|cube>
+    permission: minefight.setup
+  startgame:
+    description: Startet Spiel
+    usage: /startgame
+    permission: minefight.start
+  endgame:
+    description: Stoppt Spiel
+    usage: /endgame
+    permission: minefight.end
